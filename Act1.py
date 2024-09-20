@@ -1,7 +1,6 @@
 import copy
 
 #Creamos la lista de Frutas
-
 frutasList = ["Manzana","Pera","Platano","Fresa"]
 
 #Copiamos la lista de frutas
@@ -20,6 +19,7 @@ def imprimirLista(lista, nombreLista:str ):
 
 #Aquí vemos la diferencia entre ShadowCopy y DeepCopy
 print("Vemos la diferencia entre Shadow Copy y DeepCopy")
+
 imprimirLista(shadowCopy,"Shadow List:")
 
 imprimirLista(deepCopy,"Deep Copy:")
