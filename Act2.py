@@ -5,3 +5,9 @@ def suma(num1,num2):
 
 suma(155,34)
 
+#Recibe una lista y dobla los valores de todos los elementos
+
+numList = [1,2,3,4,5]
+
+
+
