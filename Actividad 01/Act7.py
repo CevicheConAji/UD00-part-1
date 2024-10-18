@@ -13,6 +13,7 @@ En caso de que “n”
 sea menor que 10, solo imprimirá “n” instancias.'''
 import random
 color = ["red","white","black","pink","blue"]
+#Objeto coche con un metodo que imprime la informacion
 class Car:
     def __init__(self,matricula,color):
         self.matricula = matricula
